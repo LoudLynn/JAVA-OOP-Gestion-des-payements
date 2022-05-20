@@ -1,5 +1,4 @@
 package brief2_employe;
-//import brief2_employe.Employe;
 import java.util.Scanner;
 
 public class MainEmploye {
