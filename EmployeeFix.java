@@ -16,7 +16,7 @@ public class EmployeeFix extends Employe {
 	}
 	@Override
     public String toString() {
-        return String.format("First name:"+ this.getFirstName()+"\nLast name:"+this.getLastName()+"\nDate of birth:"+this.getBirth()+"\nThe salary is "+ this.salary);
+        return String.format("Fixed Employee :First name:"+ this.getFirstName()+"\nLast name:"+this.getLastName()+"\nDate of birth:"+this.getBirth()+"\nThe salary is "+ this.salary);
     }
 
 
