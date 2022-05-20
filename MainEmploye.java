@@ -48,7 +48,7 @@ public class MainEmploye {
 			tariF =sc.nextDouble();
 			EmployeHoraire emH = new EmployeHoraire(nm, ln, d, nmH, tariF); 
 			System.out.println(emH);
-			else if (nmH>200 ) {
+			if (nmH>200 ) {
 				System.out.println("Worked Hour must be inferior than 200h !!!");
 			} 
 			else if (tariF < 20) {
