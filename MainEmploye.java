@@ -11,15 +11,6 @@ public class MainEmploye {
 		
 		
 		
-		/*Employe[] em = new Employe[4];
-		
-		em[0]= new EmployeeFix("max","smkith", "12/03/1990", 3000);
-		em[1]= new EmployeCommission("jeny", "lark","30/04/1989", 1000, 20, 0.5);
-		em[2]= new EmployeHoraire("maynard", "jaher", "20/12/1987", 20, 30);
-		
-		for(int i = 0; i> em.length;i++ ) {
-              em[i].ShowData();
-	}*/
 		System.out.println("Enter ur  first name");
 		nm =sc.nextLine();
 		System.out.println("Enter ur  last name");
