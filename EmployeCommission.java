@@ -13,7 +13,7 @@ public class EmployeCommission extends Employe {
 	@Override
 	public Number calculateSalary() {
 		
-		return salary+(sold*cms);
+		return salary+(sold*cms); // cms = Commission / sold = nombre de quantite vendue 
 	}
 	@Override
     public String toString() {
