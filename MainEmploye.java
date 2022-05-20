@@ -25,23 +25,36 @@ public class MainEmploye {
 		String eh = "Elon"; //employeeHour
 
 		
-		if ( nm.equals(ef) ) {
+		// Calling the salary of the fixed Employee Salary :
+		if ( nm.equals(ef) && ln.equals(efl) ) {
 			EmployeeFix emF = new EmployeeFix(nm, ln, d,2000); 	
 			System.out.println(emF);
 			
-		} else if(nm.equals(ec)) {
-			System.out.println("Enter sales number : ");
-			nmV =sc.nextDouble();
-			EmployeCommission emC = new EmployeCommission(nm, ln, d, 1000, nmV, 0.5); 
-			System.out.println(emC);
-			
-		}
-		if (nm.equals(eh)) {
+		
+		//	Calling the Salary of the Employee with Commission :  
+		} else if(nm.equals(ec)&& ln.equals(ecl)) {
+				System.out.println("Enter sales number : ");
+				nmV =sc.nextDouble();
+				EmployeCommission emC = new EmployeCommission(nm, ln, d, 1000, nmV, 0.5); 
+				System.out.println(emC);
+			}
+
+		// Calling the Salary of the worked Hour Employee :
+		else if (nm.equals(eh) && ln.equals(ehl)) {
 			System.out.println("Enter Worked Hours : ");
 			nmH =sc.nextDouble();
-			EmployeHoraire emH = new EmployeHoraire(nm, ln, d, nmH, 50); 
+			System.out.println("Enter your Rate(Tarif) : ");
+			tariF =sc.nextDouble();
+			EmployeHoraire emH = new EmployeHoraire(nm, ln, d, nmH, tariF); 
 			System.out.println(emH);
-
+			if (nmH>200 ) {
+				System.out.println("Worked Hour must be inferior than 200h !!!");
+			} 
+			else if (tariF < 20) {
+					System.out.println(" Rate(Tarif) must be superior than 20dh !!!");
+				}
+		} else {
+			System.out.println("Please Your Name does not exist and/or your birthday dosen't match !!!!");
 		}
 		
 		
