@@ -6,7 +6,7 @@ public class MainEmploye {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String nm,ln,d;
-		double s, nmV,nmH,cms ;
+		double s,nmV,nmH,cms,tariF;
 		
 		
 		
