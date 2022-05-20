@@ -10,8 +10,11 @@ public class EmployeHoraire extends Employe {
 	}
 	@Override
 	public Number calculateSalary() {
-		
-		return hour*rate;
+		if (hour<200 && rate > 20) {
+		return hour*rate; // rate = tarif 
+		} else {
+			return 0 ;
+		}
 	}
 	@Override
     public String toString() {
