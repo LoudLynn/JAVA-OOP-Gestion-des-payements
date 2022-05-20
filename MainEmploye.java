@@ -20,9 +20,10 @@ public class MainEmploye {
 		
 		
 		
-		String ef = "Atman"; //employeeFix
-		String ec = "Maryam"; //employeeCommission
-		String eh = "Elon"; //employeeHour
+		String ef = "Atman", efl = "Boulaajaili"; //employeeFix ==== ef=empoyeefix ==== efl= employee last name 
+		String ec = "Maryam", ecl = "Blossom"; //employeeCommission ==== ecl= employee last name 
+		String eh = "Elon", ehl = "Musk";//employeeHour ===== ehl= employee last name 
+
 
 		
 		// Calling the salary of the fixed Employee Salary :
