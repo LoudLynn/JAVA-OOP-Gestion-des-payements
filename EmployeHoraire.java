@@ -15,7 +15,7 @@ public class EmployeHoraire extends Employe {
 	}
 	@Override
     public String toString() {
-	   return String.format("First name:"+ this.getFirstName()+"\nLast name:"+this.getLastName()+"\nDate of birth:"+this.getBirth()+"\nThe salary is "+calculateSalary() );
+	   return String.format("Hourly Employee : First name:"+ this.getFirstName()+"\nLast name:"+this.getLastName()+"\nDate of birth:"+this.getBirth()+"\nThe salary is "+calculateSalary() );
     }
 	@Override
 	public void ShowData() {
