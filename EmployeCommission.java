@@ -17,11 +17,11 @@ public class EmployeCommission extends Employe {
 	}
 	@Override
     public String toString() {
-        return String.format("Commission Employee :First name:"+ this.getFirstName()+"\nLast name:"+this.getLastName()+"\nDate of birth:"+this.getBirth()+"\nThe salary is "+calculateSalary() );
+        return String.format("Commission Employee :\nFirst name:"+ this.getFirstName()+"\nLast name:"+this.getLastName()+"\nDate of birth:"+this.getBirth()+"\nThe salary is "+calculateSalary() );
     }
-	@Override
+	/*@Override
 	public void ShowData() {
 		 System.out.println("Commission Employee :First Name :"+this.getFirstName()+"Last Name :"+this.getLastName()+"Date of birth :"+this.getBirth()+"Salary :"+ calculateSalary());
 		
-	}
+	}*/
 }
