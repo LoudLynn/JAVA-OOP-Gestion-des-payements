@@ -20,9 +20,9 @@ public class EmployeeFix extends Employe {
     }
 
 
-	@Override
+	/*@Override
 	public void ShowData() {
      System.out.println("Fixed Employee :First Name :"+this.getFirstName()+"Last Name :"+ this.getLastName()+"Date of birth :"+this.getBirth()+"Salary :"+ this.salary);
-	}
+	}*/
 
 }
