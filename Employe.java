@@ -53,6 +53,6 @@ public abstract class Employe {
 	public String toString() {
 		return "Employe [firstName=" + firstName + ", lastName=" + lastName +"birth="+birth+ "]";
 	}   
-	public abstract void ShowData();
+	//public abstract void ShowData();
 
 }
