@@ -6,7 +6,6 @@ public abstract class Employe {
 	
 	private String firstName;
     private String lastName;
-    
     private String birth;
     
     public Employe(String fn , String ln,String b ) {
